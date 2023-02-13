@@ -22,7 +22,7 @@ const DUMMY_EVENTS = [
 function EventsPage() {
   return (
     <>
-      <h1>This is an Event Page</h1>;
+      <h1>This is an Event Page</h1>
       <ul>
         {DUMMY_EVENTS.map((event) => (
           <li key={event.id}>
